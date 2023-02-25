@@ -1,0 +1,58 @@
+.sectionDemo{
+    height: 100%;
+    margin-bottom: 5vh;
+
+}
+
+.sectionDemo h1{
+    color: rgb(49, 49, 49);
+    width: 95%;
+    font-size: 4rem;
+    animation: slogan 1s linear;
+    text-align: center;
+}
+
+.sectionDemo section{
+
+    top: 30%;
+    left: 10%;
+}
+
+
+.sectionDemo div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.sectionDemo div h3{
+    color: rgb(49, 49, 49);
+    height: 20vh;
+    width: 50%;
+    border-radius: 10px;
+    margin: 2vh;
+    text-align: center;
+    background-color: rgb(238, 220, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+    animation: slogan 2s linear;
+    padding: 2vh;
+}
+
+
+@keyframes slogan {
+    0%{
+        transform: translateY(20vh);
+        opacity: 0;
+    }
+    80%{
+        transform: translateY(2vh);
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

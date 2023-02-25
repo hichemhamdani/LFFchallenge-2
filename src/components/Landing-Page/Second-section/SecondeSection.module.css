@@ -1,0 +1,19 @@
+.SecondSection{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.SecondSection aside{
+    width: 50%;
+}
+
+.SecondSection aside h1{
+    font-size: 3rem;
+}
+
+.SecondSection aside p{
+    font-size: 2rem;
+    line-height: 8vh;
+}

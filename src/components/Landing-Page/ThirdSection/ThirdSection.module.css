@@ -1,0 +1,20 @@
+.ThirdSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.ThirdSection p{
+    font-size: 4rem;
+    text-align: center;
+    width: 70%;
+
+}
+
+.ThirdSection p span{
+    font-weight: 700;
+    font-size: 2rem;
+    color: rgb(182, 104, 255);;
+}

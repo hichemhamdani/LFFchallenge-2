@@ -1,0 +1,44 @@
+.FourtthSection{
+    
+}
+
+.title{
+    text-align: center;
+    font-size: 4rem;
+    color: rgb(48, 48, 48);
+    border-bottom: 1.5vh solid rgb(182, 104, 255);; ;
+}
+
+.caroussel{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    animation: slider 60s infinite linear;
+}
+
+.FourtthSection img{
+    margin: 2vw;
+    border-radius: 10px;
+    margin: 2vw;
+    transition: 1s;
+}
+
+.FourtthSection img:hover{
+    transform: scale(1.2);
+
+}
+
+
+
+@keyframes slider {
+    0%,100%,50%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(-60vh);
+    }
+    75%{
+        transform: translateX(60vh);
+    }
+}

@@ -1,0 +1,76 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Roboto";
+    padding: 2vh;
+    position: sticky;
+    top :0;
+    z-index: 20;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-color: white;
+}
+
+
+.title{
+    font-family: "Roboto";
+    font-weight: 700;
+    color: rgb(182, 104, 255);
+}
+
+.logo{
+    display: flex;
+}
+
+.logo img{
+    animation: logo 20s linear infinite;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+    width: 50%;
+}
+
+.nav li{
+    border: 1px solid rgb(182, 104, 255);
+    border-radius: 10px;
+    padding: 2vh;
+    color: rgb(92, 92, 92);
+    cursor: pointer;
+}
+
+.nav li:hover{
+    background-color: rgb(182, 104, 255);
+    color: white;
+    transition: color 0.5s, background-color 0.5s;
+}
+
+.nav li:first-child{
+    background-color: rgb(182, 104, 255);
+    color: white;
+    transition: color 0.5s, background-color 0.5s;
+}
+
+.nav li:first-child:hover{
+    cursor: pointer;
+    transition: ;
+    background-color: white;
+    color: rgb(182, 104, 255);
+}
+
+
+@keyframes logo {
+    0%,50%,100%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(-2vh);
+    }
+    75%{
+        transform: translateX(2vh);
+    }
+}
+
