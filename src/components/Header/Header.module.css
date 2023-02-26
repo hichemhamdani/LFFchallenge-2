@@ -1,12 +1,19 @@
+.container{
+    background-color: white;
+    width: 100vw;
+    position: sticky;
+    top :0;
+    left: 0;
+    margin-left: 0;
+    z-index: 20;
+}
 .header{
     display: flex;
     align-items: center;
     justify-content: space-between;
     font-family: "Roboto";
     padding: 2vh;
-    position: sticky;
-    top :0;
-    z-index: 20;
+    width: 100%;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     background-color: white;
 }
@@ -40,6 +47,7 @@
     padding: 2vh;
     color: rgb(92, 92, 92);
     cursor: pointer;
+    font-weight: 700;
 }
 
 .nav li:hover{
@@ -70,7 +78,7 @@
         transform: translateX(-2vh);
     }
     75%{
-        transform: translateX(2vh);
+        transform: translateX(0.5vh);
     }
 }
 

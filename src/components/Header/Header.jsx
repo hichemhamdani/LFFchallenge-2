@@ -6,6 +6,7 @@ import styles from "./Header.module.css"
 
 const Header = () => {
   return (
+    <div className={styles.container}>
     <header className={styles.header}>
         <div className={styles.logo}>
             <Image
@@ -22,6 +23,7 @@ const Header = () => {
             <li><a>Demander un devis</a></li>
         </nav>
     </header>
+    </div>
   )
 }
 

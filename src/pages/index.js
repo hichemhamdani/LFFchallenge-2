@@ -4,6 +4,7 @@ import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import LandingPage from '@/components/Landing-Page/LandingPage'
 
+
 import AOS from "aos"
 import "aos/dist/aos.css"
 
