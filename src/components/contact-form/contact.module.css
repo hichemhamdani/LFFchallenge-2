@@ -1,0 +1,40 @@
+.contact{
+    margin-top: 20vh;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form input{
+    width: 30vw;
+    height: 5vh;
+    margin-top: 5vh;
+    font-size: 1.5rem;
+}
+
+.form textarea{
+    margin-top: 5vh;
+    width: 30vw;  
+    font-size: 1.4rem; 
+}
+
+.form button{
+    cursor: pointer;
+    margin-top: 5vh;
+    font-size: 2rem;
+    padding: 2vh;
+    border: none;
+    border-radius: 10px;
+    transition: 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.form button:hover{
+    background-color: rgb(201, 144, 254);
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}

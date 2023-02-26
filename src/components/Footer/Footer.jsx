@@ -2,12 +2,11 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div>
-        
-
-
-
+    <div style={{height:"20vh"}}>
         <p>Copyright © La Ferme Française .</p>
+        <p>Facebook</p>
+        <p>Instagram</p>
+        <p>LInkedIn</p>
     </div>
   )
 }

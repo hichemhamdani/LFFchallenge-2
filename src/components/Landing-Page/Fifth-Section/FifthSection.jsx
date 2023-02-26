@@ -72,7 +72,7 @@ const FifthSection = () => {
         <div className={styles.container}>
         {state.films.map((el,index)=>{
           return (
-          <div className={styles.card} key={index}>
+          <div data-aos="fade-down" className={styles.card} key={index}>
             <p>Titre : {el.title}</p>
             <p>Titre : {el.category}</p>
           </div>

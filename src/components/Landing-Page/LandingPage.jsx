@@ -8,6 +8,7 @@ import FifthSection from './Fifth-Section/FifthSection'
 import SixSection from './Sixth-Section/SixSection'
 import TeamSection from './Team-Section/TeamSection'
 import Footer from '../Footer/Footer'
+import ContactForm from '../contact-form/ContactForm'
 const LandingPage = () => {
   return (
     <>
@@ -19,6 +20,7 @@ const LandingPage = () => {
         <FifthSection />
         <SixSection />
         <TeamSection />
+        <ContactForm />
         <Footer />
     </>
   )
