@@ -32,3 +32,18 @@
 .card:hover{
     transform: scale(1.05);
 }
+
+.btn{
+    border: none;
+    border-radius: 10px;
+    background-color: #856DA6;
+    color: #F2DCE2;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover{
+    background-color: #F2DCE2;;
+    color: #856DA6;
+}

@@ -5,8 +5,14 @@ import DemoSlideTwo from "../../../../assets/demo-slide-2.png"
 import DemoSlideThree from "../../../../assets/demo-slide-3.png"
 import DemoSlideFive from "../../../../assets/demo-slide-5.png"
 
+import { Slide } from 'react-slideshow-image'
+
 import Aos from 'aos'
 import "aos/dist/aos.css"
+
+const properties = {
+  
+}
 
 
 const FourthSection = () => {
@@ -17,6 +23,8 @@ const FourthSection = () => {
 <section className={styles.FourtthSection}>
     <h1 className={styles.title}>Our Template are just ready to use</h1>
     <div className={styles.caroussel}>
+
+
     <Image
         data-aos="fade-up"
       src={DemoSlideTwo}

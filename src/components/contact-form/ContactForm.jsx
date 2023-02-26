@@ -1,4 +1,6 @@
 import React, { useState } from 'react'
+import Link from 'next/link'
+import Footer from '../Footer/Footer'
 
 import styles from "./contact.module.css"
 
@@ -16,6 +18,8 @@ const ContactForm = () => {
     }
   return (
     <div className={styles.contact}>
+        <button className={styles.retour}><Link href="/">Retour</Link></button>
+
         <h1>Remplissez ce formulaire et nous vous contacterons</h1>
         <div className={styles.underline}></div>
         <form onSubmit={handleSubmit} className={styles.form} action="">
@@ -49,6 +53,7 @@ const ContactForm = () => {
 
             <button type='submit'>Envoyer</button>
         </form>
+        <Footer />
     </div>
   )
 }

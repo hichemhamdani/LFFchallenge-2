@@ -5,7 +5,7 @@
 }
 
 .sectionDemo h1{
-    color: rgb(49, 49, 49);
+    color: #856DA6;
     width: 95%;
     font-size: 4rem;
     animation: slogan 1s linear;
@@ -27,13 +27,13 @@
 }
 
 .sectionDemo div h3{
-    color: rgb(49, 49, 49);
+    color: #F2DCE2;
     height: 20vh;
     width: 50%;
     border-radius: 10px;
     margin: 2vh;
     text-align: center;
-    background-color: rgb(238, 220, 255);
+    background-color:#5C64F2;
     display: flex;
     flex-direction: column;
     align-items: center;

@@ -1,6 +1,6 @@
 .blue{
-    background-color: aquamarine;
-    color: rgb(79, 79, 79);
+    background-color:#856DA6;
+    color: #F2DCE2;
     transition: 1s;
 }
 
@@ -21,9 +21,14 @@
     height: 30vh;
     border: none;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    background-color: #8B88F2;
+    color: #F2DCE2;
     border-radius: 10px;
     font-size: 1.4rem;
     font-weight: 700;
+    animation: card 2s ;
+    margin: 2vh;
+    padding: 1vh;
 }
 
 .btn{
@@ -52,4 +57,13 @@
     align-items: center;
     justify-content: center;
     height: 70vh;
+}
+
+@keyframes card {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
 }

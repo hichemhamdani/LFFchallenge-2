@@ -69,12 +69,12 @@ const FifthSection = () => {
           setActivedWeb(false)
           }}>All</button>
     <div className={styles.test}>
-        <div className={styles.container}>
+        <div data-aos="fade-down" className={styles.container}>
         {state.films.map((el,index)=>{
           return (
           <div data-aos="fade-down" className={styles.card} key={index}>
-            <p>Titre : {el.title}</p>
-            <p>Titre : {el.category}</p>
+            <p data-aos="fade-down">Titre : {el.title}</p>
+            <p data-aos="fade-down">Titre : {el.category}</p>
           </div>
           )
         })}

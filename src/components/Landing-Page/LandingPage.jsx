@@ -20,7 +20,7 @@ const LandingPage = () => {
         <FifthSection />
         <SixSection />
         <TeamSection />
-        <ContactForm />
+        {/* <ContactForm /> */}
         <Footer />
     </>
   )

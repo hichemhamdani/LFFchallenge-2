@@ -25,7 +25,7 @@ const TeamSection = () => {
                         <p>{el.img}</p>
                         <p>Profession : {el.profession}</p>
                         <p>{show ? el.more : `${el.more.substring(0,200)}...`}</p>
-                        <button style={{border:"none", fontSize:"1.3rem",padding:"2vh"}} onClick={()=> setShow(prevState => !prevState)}>{show ? "Hide" : "Show more"}</button>
+                        <button className={styles.btn} style={{border:"none", fontSize:"1.3rem",padding:"2vh"}} onClick={()=> setShow(prevState => !prevState)}>{show ? "Hide" : "Show more"}</button>
                     </div>
                 )
             })}

@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Logo from "../../../public/LFFlogo.svg"
+import Link from 'next/link'
 
 import styles from "./Header.module.css"
 
@@ -20,7 +21,7 @@ const Header = () => {
         <nav className={styles.nav}>
             <li><a>Demonstration</a></li>
             <li><a>Pourquoi nous choisir</a></li>
-            <li><a>Demander un devis</a></li>
+            <li><a><Link style={{textDecoration:"none"}} href="/contact">Demander un devis</Link></a></li>
         </nav>
     </header>
     </div>
