@@ -1,0 +1,55 @@
+.blue{
+    background-color: aquamarine;
+    color: rgb(79, 79, 79);
+    transition: 1s;
+}
+
+.title{
+    font-size: 3rem;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 75%;
+}
+
+.card {
+    width: 30vw;
+    height: 30vh;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border-radius: 10px;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.btn{
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    padding: 2vh;
+    margin: 2vw;
+    font-weight: 600;
+    transition: 1s;
+
+}
+
+.btn:hover{
+    background-color: aquamarine;
+    cursor: pointer;
+    color: rgb(79, 79, 79);
+}
+
+
+
+.test{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+}
