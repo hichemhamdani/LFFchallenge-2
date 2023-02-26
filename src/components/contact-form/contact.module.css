@@ -2,6 +2,11 @@
     margin-top: 20vh;
 }
 
+.underline{
+    border-bottom: 4px solid rgb(201, 144, 254); ;
+    width: 10vw;
+}
+
 .form{
     display: flex;
     flex-direction: column;

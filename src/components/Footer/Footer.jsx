@@ -3,10 +3,10 @@ import React from 'react'
 const Footer = () => {
   return (
     <div style={{height:"20vh"}}>
+      <div className="underline"></div>
         <p>Copyright © La Ferme Française .</p>
         <p>Facebook</p>
-        <p>Instagram</p>
-        <p>LInkedIn</p>
+        <p>LinkedIn</p>
     </div>
   )
 }

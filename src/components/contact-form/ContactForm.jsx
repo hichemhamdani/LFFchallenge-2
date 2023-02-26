@@ -17,6 +17,7 @@ const ContactForm = () => {
   return (
     <div className={styles.contact}>
         <h1>Remplissez ce formulaire et nous vous contacterons</h1>
+        <div className={styles.underline}></div>
         <form onSubmit={handleSubmit} className={styles.form} action="">
             <input type="text" 
             value={infos.firstName} 

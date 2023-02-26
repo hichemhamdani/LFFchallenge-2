@@ -9,3 +9,8 @@ html{
     margin: 0;
     padding: 0;
 }
+
+.underline{
+    border-bottom: 4px solid rgb(201, 144, 254); ;
+    width: 10vw;
+}
