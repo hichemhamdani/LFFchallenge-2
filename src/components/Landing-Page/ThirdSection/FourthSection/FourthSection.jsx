@@ -5,7 +5,6 @@ import DemoSlideTwo from "../../../../assets/demo-slide-2.png"
 import DemoSlideThree from "../../../../assets/demo-slide-3.png"
 import DemoSlideFive from "../../../../assets/demo-slide-5.png"
 
-import { Slide } from 'react-slideshow-image'
 
 import Aos from 'aos'
 import "aos/dist/aos.css"

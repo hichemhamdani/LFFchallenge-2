@@ -21,7 +21,7 @@ const Header = () => {
         <nav className={styles.nav}>
             <li><a>Demonstration</a></li>
             <li><a>Pourquoi nous choisir</a></li>
-            <li><a><Link style={{textDecoration:"none"}} href="/contact">Demander un devis</Link></a></li>
+            <Link className={styles.link} href="/contact">Demander un devis</Link>
         </nav>
     </header>
     </div>

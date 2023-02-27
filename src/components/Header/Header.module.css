@@ -51,6 +51,19 @@
     font-weight: 700;
 }
 
+.link{
+    border: 1px solid rgb(182, 104, 255);
+    border-radius: 10px;
+    padding: 2vh;
+    color: rgb(92, 92, 92);
+    cursor: pointer;
+    font-weight: 700;
+}
+.link:hover{
+    background-color: rgb(182, 104, 255);
+    color: white;
+    transition: color 0.5s, background-color 0.5s;
+}
 .nav li:hover{
     background-color: rgb(182, 104, 255);
     color: white;

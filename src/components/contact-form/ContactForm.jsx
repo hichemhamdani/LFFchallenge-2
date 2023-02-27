@@ -17,7 +17,7 @@ const ContactForm = () => {
         console.log(infos)
     }
   return (
-    <div className={styles.contact}>
+    <main className={styles.contact}>
         <button className={styles.retour}><Link href="/">Retour</Link></button>
 
         <h1>Remplissez ce formulaire et nous vous contacterons</h1>
@@ -53,8 +53,10 @@ const ContactForm = () => {
 
             <button type='submit'>Envoyer</button>
         </form>
+        <div>
         <Footer />
-    </div>
+        </div>
+    </main>
   )
 }
 
