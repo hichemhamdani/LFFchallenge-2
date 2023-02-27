@@ -11,10 +11,31 @@
 
 .caroussel{
     display: flex;
-    flex-wrap: nowrap;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     /* animation: slider 60s infinite linear; */
+}
+
+.test{
+    display: flex;
+}
+
+.caroussel button{
+    cursor: pointer;
+    padding: 2vh;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    border: none;
+    margin: 2vh;
+    background-color: rgb(182, 104, 255);
+    color: white;
+    transition: 0.2s;
+}
+
+.caroussel button:hover{
+    background-color: white;
+    color: rgb(182, 104, 255);
 }
 
 .FourtthSection img{
