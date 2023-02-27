@@ -15,7 +15,7 @@ const SixSection = () => {
     
   return (
     <div>
-        <h1 data-aos="fade-left" className={styles.title}>Satisfaction client toujorus au Rendez-vous</h1>
+        <h1 data-aos="fade-left" className={styles.title}>Satisfaction client toujours au Rendez-vous</h1>
         <div className={styles.avisContainer}>
             {data.map((el,index)=>{
                 return(
